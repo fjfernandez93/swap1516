@@ -1,0 +1,20 @@
+<pregunta>
+ <enunciado>Si ante un incremento del número de accesos a nuestro servidor, el hardware y software comienzan a dar fallos, tenemos un problema de:</enunciado>
+ <opcionA>carga del sistema</opcionA>
+ <opcionB>viabilidad</opcionB>
+ <opcionC>redundancia</opcionC>
+ <opcionD>disponibilidad</opcionD>
+ <solucion>A</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>Para evitar algunos problemas de carga del sistema, una posible solución es configurar varias máquinas y dedicar una a cada servicio que se esté ofreciendo
+     ¿Qué problema principal tiene esta solución?:</enunciado>
+ <opcionA>el coste económico sería demasiado alto.</opcionA>
+ <opcionB>el sitio no es escalable (no podrá dar soporte a un número creciente de usuarios para cierto servicio).</opcionB>
+ <opcionC>el riesgo ante posibles fallos de seguridad aumentaría.</opcionC>
+ <opcionD>es la solución óptima, no tiene ningún problema importante.</opcionD>
+ <solucion>B</solucion>
+</pregunta>
