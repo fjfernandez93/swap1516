@@ -1,0 +1,19 @@
+<pregunta>
+ <enunciado>Para garantizar la alta disponibilidad en el diseño de un sistema, debemos tener redundancia en:</enunciado>
+ <opcionA>Routers, cortafuegos y balanceadores</opcionA>
+ <opcionB>Servidores</opcionB>
+ <opcionC>Conexión a internet</opcionC>
+ <opcionD>Todas las anteriores</opcionD>
+ <solucion>D</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>Un ejemplo de escalado con ampliación horizontal sería:</enunciado>
+ <opcionA>Mejorar el ancho de banda de la conexión a internet</opcionA>
+ <opcionB>Duplicar el número de servidores web</opcionB>
+ <opcionC>Actualizar el sistema operativo del servidor web a la versión más reciente.</opcionC>
+ <opcionD>Aumentar la memoria RAM del servidor de datos</opcionD>
+ <solucion>B</solucion>
+</pregunta>
