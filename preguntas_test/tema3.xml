@@ -11,7 +11,7 @@
 
 <pregunta>
  <enunciado>¿Cual de estas opciones es una desventaja clara una configuracón DMZ tradicional?</enunciado>
- <opcionA>el coste económico es demasiado altos.</opcionA>
+ <opcionA>el coste económico es demasiado alto.</opcionA>
  <opcionB>sobrecarga de paquetes con dirección al servidor web.</opcionB>
  <opcionC>duplicidad de cortafuegos.</opcionC>
  <opcionD>el cortafuegos es un posible cuello de botella.</opcionD>
