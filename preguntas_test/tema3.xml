@@ -1,0 +1,19 @@
+<pregunta>
+ <enunciado>¿Con qué mecanismo mapeamos una dirección pública a una dirección privada de una de las máquinas servidoras interna?</enunciado>
+ <opcionA>WLAN</opcionA>
+ <opcionB>Map-IP</opcionB>
+ <opcionC>NAT</opcionC>
+ <opcionD>Iptables</opcionD>
+ <solucion>C</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>¿Cual de estas opciones es una desventaja clara una configuracón DMZ tradicional?</enunciado>
+ <opcionA>el coste económico es demasiado altos.</opcionA>
+ <opcionB>sobrecarga de paquetes con dirección al servidor web.</opcionB>
+ <opcionC>duplicidad de cortafuegos.</opcionC>
+ <opcionD>el cortafuegos es un posible cuello de botella.</opcionD>
+ <solucion>B</solucion>
+</pregunta>
