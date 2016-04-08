@@ -16,5 +16,5 @@
  <opcionB>tiene un coste de implementación muy alto.</opcionB>
  <opcionC>los servidores DNS no tienen información sobre la disponibilidad de las máquinas.</opcionC>
  <opcionD>el cortafuegos de las máquinas bloquearía parte de las peticiones que llegan a través del balanceo por DNS.</opcionD>
- <solucion>B</solucion>
+ <solucion>C</solucion>
 </pregunta>
