@@ -1,0 +1,20 @@
+<pregunta>
+ <enunciado>¿Cual de estos algoritmos de balanceo asigna a cada máquina un peso para controlar el % de peticiones que se le
+     pasa a cada una?</enunciado>
+ <opcionA>Basado en prioridad.</opcionA>
+ <opcionB>Round-robin</opcionB>
+ <opcionC>Basado en ponderación.</opcionC>
+ <opcionD>Basado en tiempo de respuesta.</opcionD>
+ <solucion>C</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>¿Cual es uno de los problemas de implementar el balanceo de carga mediante DNS?</enunciado>
+ <opcionA>no se puede implementar el balanceo mediante DNS.</opcionA>
+ <opcionB>tiene un coste de implementación muy alto.</opcionB>
+ <opcionC>los servidores DNS no tienen información sobre la disponibilidad de las máquinas.</opcionC>
+ <opcionD>el cortafuegos de las máquinas bloquearía parte de las peticiones que llegan a través del balanceo por DNS.</opcionD>
+ <solucion>B</solucion>
+</pregunta>
