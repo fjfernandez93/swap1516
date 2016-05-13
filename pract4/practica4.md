@@ -36,7 +36,7 @@ Los datos relevantes son:
 
 Vuelvo a ejecutar el comando 10 veces, esta vez sobre la IP de la máquina que balancea (192.168.1.32), corriendo Nginx:
 
-![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/img/siege-granja-nginx.png)
+![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/img/siege-granja-ngi.png)
 
 Por último, lo vuelvo a ejecutar sobre el balanceador, con haproxy:
 
