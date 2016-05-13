@@ -1,4 +1,4 @@
-# Práctica 3
+# Práctica 4
 
 ## Apache Benchmark
 
@@ -14,15 +14,10 @@ La salida que produce es:
 
 ![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/3.png)
 
-Por último, ejecuto el benchmark 10 veces y me hago la media y la desviación típica de los resultados interesantes:
+Por último, ejecuto el benchmark 10 veces y hago la media y la desviación típica de los resultados interesantes:
 
 ![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract4/4.png)
 
-Nota:
-
-- 192.168.1.30 y 192.168.1.31 son las IPs de las máquinas con el contenido web.
-- 192.168.1.32 es la IP de la máquina con el balanceador de carga.
-- 192.168.1.33 es la IP de la máquina que simula a un usuario accediendo a las webs.
 
 ##haproxy
 
@@ -37,3 +32,13 @@ Inicio el servicio:
 Compruebo que balancea:
 
 ![img7](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/7.png)
+
+
+
+
+
+Nota:
+
+- 192.168.1.30 y 192.168.1.31 son las IPs de las máquinas con el contenido web.
+- 192.168.1.32 es la IP de la máquina con el balanceador de carga.
+- 192.168.1.33 es la IP de la máquina que simula a un usuario accediendo a las webs.
