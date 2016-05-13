@@ -21,12 +21,26 @@ Por último, lo vuelvo a ejecutar sobre el balanceador, con haproxy:
 ![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract4/img/ab-granja-haproxy.png)
 
 
-##haproxy
+##Siege
 
+Ahora hago lo mismo que en el apartado anterior, pero utilizando el benchmark Siege.
 
+Ejecuto 10 veces el comando
 
+    ./siege -b -t60S -v http://192.168.1.30
 
+indicando que haga peticiones durante 60 segundos a la IP de la máquina servidora 1.
+Los datos relevantes son:
 
+![img1](https://github.com/fjfernandez93/swap1516/blob/master/pract4/img/siege-M1.png)
+
+Vuelvo a ejecutar el comando 10 veces, esta vez sobre la IP de la máquina que balancea (192.168.1.32), corriendo Nginx:
+
+![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/img/siege-granja-nginx.png)
+
+Por último, lo vuelvo a ejecutar sobre el balanceador, con haproxy:
+
+![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract4/img/siege-granja-haproxy.png)
 
 Nota:
 
