@@ -1,0 +1,19 @@
+<pregunta>
+ <enunciado>¿En que tipo de benchmark se genera actividad creciente hasta detectar el punto de saturación?</enunciado>
+ <opcionA>Carga (Load).</opcionA>
+ <opcionB>Estabilidad (Stability).</opcionB>
+ <opcionC>Capacity (Capacidad).</opcionC>
+ <opcionD>Humo (Smoke).</opcionD>
+ <solucion>C</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>¿Cual de estas herramientas NO es un benchmark del rendimiento de servidores?</enunciado>
+ <opcionA>Apache Benchmark.</opcionA>
+ <opcionB>httperf</opcionB>
+ <opcionC>OpenWebLoad</opcionC>
+ <opcionD>BenchLoad</opcionD>
+ <solucion></solucion>
+</pregunta>
