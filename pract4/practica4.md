@@ -2,21 +2,21 @@
 
 ## Apache Benchmark
 
-En primer lugar 
+En primer lugar creo el documento HTML de prueba:
 
-![img1](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/1_-_comprobar_que_nginx_funciona.png)
+![img1](https://github.com/fjfernandez93/swap1516/blob/master/pract4/1.png)
 
-Actualizo el archivo de configuración:
+Ejecuto el comando de Apache Benchmark, indicando que haga 1000 peticiones de 5 en 5 concurrentemente, a la IP de la máquina que balancea:
 
-![img2](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/2_-_conf_nginx.png)
+![img2](https://github.com/fjfernandez93/swap1516/blob/master/pract4/2.png)
 
-Ahora compruebo que nginx funciona redireccionando al html de las otras máquinas:
+La salida que produce es:
 
-![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/3_-_nginx_redirecciona.png)
+![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/3.png)
 
-Por último, desactivo la tarea crontab para que se aprecie el balanceo:
+Por último, ejecuto el benchmark 10 veces y me hago la media y la desviación típica de los resultados interesantes:
 
-![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/4_-_funciona_balance.png)
+![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract4/4.png)
 
 Nota:
 
