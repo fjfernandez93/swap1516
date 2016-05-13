@@ -2,36 +2,27 @@
 
 ## Apache Benchmark
 
-En primer lugar creo el documento HTML de prueba:
 
-![img1](https://github.com/fjfernandez93/swap1516/blob/master/pract4/1.png)
+Ejecuto 10 veces el comando
 
-Ejecuto el comando de Apache Benchmark, indicando que haga 1000 peticiones de 5 en 5 concurrentemente, a la IP de la máquina que balancea:
+    ab -n 1000 -c 5 http://192.168.1.30
 
-![img2](https://github.com/fjfernandez93/swap1516/blob/master/pract4/2.png)
+indicando que haga 1000 peticiones de 5 en 5 concurrentemente, a la IP de la máquina servidora 1.
+Los datos relevantes son:
 
-La salida que produce es:
+![img1](https://github.com/fjfernandez93/swap1516/blob/master/pract4/ab-M1.png)
 
-![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/3.png)
+Vuelvo a ejecutar el comando 10 veces, esta vez sobre la IP de la máquina que balancea (192.168.1.32), corriendo Nginx:
 
-Por último, ejecuto el benchmark 10 veces y hago la media y la desviación típica de los resultados interesantes:
+![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract4/ab-granja-nginx.png)
 
-![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract4/4.png)
+Por último, lo vuelvo a ejecutar sobre el balanceador, con haproxy:
+
+![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract4/ab-granja-haproxy.png)
 
 
 ##haproxy
 
-Primero, hago los cambios en el archivo de configuración (/etc/haproxy/haproxy.cfg):
-
-![img5](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/5.png)
-
-Inicio el servicio:
-
-![img6](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/6.png)
-
-Compruebo que balancea:
-
-![img7](https://github.com/fjfernandez93/swap1516/blob/master/pract3/img/7.png)
 
 
 
