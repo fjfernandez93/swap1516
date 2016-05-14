@@ -22,6 +22,10 @@ Ahora puedo proceder a hacer el "volcado" de la base de datos "expediente" en un
 
 ![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/4.png)
 
+Una vez hecho esto, vuelvo a desbloquear las tablas:
+
+![img5](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/5.png)
+
 Nota:
 
 - 192.168.1.30 y 192.168.1.31 son las IPs de las máquinas con el contenido web.
