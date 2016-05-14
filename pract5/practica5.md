@@ -60,6 +60,10 @@ Lo siguiente es crear un usuario en el MySQL del maestro y darle permisos:
 
 ![img11](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/11.png)
 
+Por último, añadimos la información del maestro mediante senticias SQL en el esclavo:
+
+![img12](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/12.png)
+
 Nota:
 
 - 192.168.1.30 y 192.168.1.31 son las IPs de las máquinas con el contenido web.
