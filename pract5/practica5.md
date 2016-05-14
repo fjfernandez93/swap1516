@@ -64,6 +64,20 @@ Por último, añadimos la información del maestro mediante senticias SQL en el 
 
 ![img12](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/12.png)
 
+Para comprobar que todo funciona correctamente, en primer lugar compruebo el "status" del esclavo.
+La variable “Seconds_Behind_Master” tiene que ser 0:
+
+![img13](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/13.png)
+
+Ahoa hago unas insercciones en el maestro:
+
+![img14](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/14.png)
+
+Y compruebo que se han replicado los cambios en el esclavo:
+
+![img15](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/15.png)
+
+
 Nota:
 
 - 192.168.1.30 y 192.168.1.31 son las IPs de las máquinas con el contenido web.
