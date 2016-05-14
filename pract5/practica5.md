@@ -39,6 +39,26 @@ Por ultimo, con mysqldump ejecuto las sentencias sql del fichero en la nueva bas
 
 ![img8](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/8.png)
 
+## Configuración maestro-esclavo
+
+Lo primero es hacer los cambios en el archivo /etc/mysql/my.conf tanto del maestro (máquina 1) como del esclavo (máquina 2).
+Los cambios son:
+
+- Comentar la línea bind-address 127.0.0.1
+- Descomentar server-id (valor 1 para el maestro y valor 2 para el esclavo).
+- Descomentar la línea log_bin = /var/log/mysql/bin.log
+
+Como uso la versión 5.5.38, no añado información del maestro en el archivo de configuración del esclavo.
+
+Reinicio los servicios en ambas máquinas y compruebo que no hay errores:
+
+![img9](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/9.png)
+
+![img10](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/10.png)
+
+Lo siguiente es crear un usuario en el MySQL del maestro y darle permisos:
+
+![img11](https://github.com/fjfernandez93/swap1516/blob/master/pract5/img/11.png)
 
 Nota:
 
