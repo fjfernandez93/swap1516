@@ -21,6 +21,27 @@ Y le damos formato con:
     sudo mkfs /dev/md0
 
 ![img3](https://github.com/fjfernandez93/swap1516/blob/master/pract6/img/3.png)
+
+Para crear el directorio donde se montará el RAID:
+    sudo mkdir /dat
+    sudo mount /dev/md0 /dat
+
+Para comprobar que todo está correcto, ejecuto:
+
+    sudo mount
+
+![img4](https://github.com/fjfernandez93/swap1516/blob/master/pract6/img/4.png)
+
+y:
+
+sudo mdadm --detail /dev/md0
+
+![img5](https://github.com/fjfernandez93/swap1516/blob/master/pract6/img/5.png)
+
+Para finalizar el proceso de creación del RAID, modifico el archivo /etc/fstab para que se monte al arrancar el sistema:
+
+![img6](https://github.com/fjfernandez93/swap1516/blob/master/pract6/img/6.png)
+
 Nota:
 
 - 192.168.1.30 y 192.168.1.31 son las IPs de las máquinas con el contenido web.
