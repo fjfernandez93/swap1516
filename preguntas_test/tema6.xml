@@ -1,0 +1,19 @@
+<pregunta>
+ <enunciado>La medida de poner una contreseña a la BIOS, es una medida de:</enunciado>
+ <opcionA>Seguridad a nivel físico.</opcionA>
+ <opcionB>Seguridad a nivel de red.</opcionB>
+ <opcionC>Seguridad a nivel de administrador.</opcionC>
+ <opcionD>Seguridad a nivel de gestión.</opcionD>
+ <solucion>A</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>¿Cual de estas tareas NO la realiza un cortafuegos?</enunciado>
+ <opcionA>Ocultar la verdadera dirección del servidor.</opcionA>
+ <opcionB>Comprobación de la integridad de los paquetes TCP recibidos.</opcionB>
+ <opcionC>Control del tráfico de red a nivel de protocolo de red.</opcionC>
+ <opcionD>Proteger los servidores y aplicaciones de ataques.</opcionD>
+ <solucion>B</solucion>
+</pregunta>
